@@ -16,6 +16,11 @@ public class Controller {
 		System.out.println(q.Rear());
 		q.deQueue();  // removes the first element 
 		System.out.println(q.Front());
+
+
+
+		Heap h = new Heap();
+		h.priorityQue();
 		
 			
 		
